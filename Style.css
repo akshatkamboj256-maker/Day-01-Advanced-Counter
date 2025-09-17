@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libertinus+Mono&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins",sans-serif;
+  /* background-color: rgb(238, 100, 248);
+  color: rgb(253, 251, 253); */
+  /* background-color: #764ba2; */
+}
+
+
+  body {
+  background: url('https://source.unsplash.com/1600x900/?abstract,colors') no-repeat center center/cover;
+  font-family: 'Poppins', sans-serif;
+  
+  
+}
+
+h2{
+  font-weight: 600;
+  padding-bottom: 1.5rem;
+}
+
+
+
+.counter-app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  gap: 1.5rem;
+  margin: auto;
+  border: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  border-radius: 4vh;
+  width: 70%;
+  height: 120vh;
+  margin-top: 1rem;
+  /* color: white; */
+
+  backdrop-filter: blur(15px);
+  background: linear-gradient(135deg,#667eea,#764ba2 )
+
+}
+
+.counter-app:hover{
+  box-shadow: 0px 16px 50px rgba(251, 204, 35, 0.998);
+
+}
+
+#step{
+  width: 75vh;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 4vh;
+  font-size: 1rem;
+  outline: none;
+}
+
+button{
+  /* background: rgba(255,255,255,0.8); */
+  margin: 1rem 1rem 1rem 1rem;
+  padding: 0.4rem 0.4rem 0.4rem 0.4rem;
+  text-align: center;
+  border-radius: 2vh;
+  font-size: 1rem;
+  border: 1.5px solid rgb(251, 210, 30);
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+button:hover{
+  /* padding: 0.5rem 0.5rem 0.5rem 0.5rem; */
+  transform: scale(1.1);
+  /* background: rgba(255,255,255,0.1); */
+  /* border:0.5px solid #667eea; */
+  background-color: #8197fadb;
+  box-shadow: 0 5px 20px rgba(251,202,37);
+}
+
+h1:hover{
+  text-decoration: underline rgb(251, 202, 37);
+}
+
+h2:hover{
+  text-decoration: underline rgb(251, 202, 37);
+}
+
+h1{
+  margin-top: 1.5rem;
+  
+}
+
+
+.dark-mode{
+  background-color: black;
+  /* color: white; */
+}
+
+input:focus{
+  border:2px solid #fcc93b;
+}

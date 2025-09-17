@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced-Counter-App</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <div class="counter-app">
+    <h1>Advanced-Counter-App</h1>
+    
+    <div class="step">
+      <h2>Live Update.... = <span style="color: red;" id="count">0</span></h2>
+      <input type="number" id="step" min="1" placeholder="Enter the value">
+      <button id="theme">Dark/light</button>
+    </div>
+    <div class="controls-1">
+      <h2>Inc/Dec/Reset!!</h2>
+      <button id="inc">+Increment</button>
+      <button id="dec">-Decrease</button>
+      <button id="reset">Reset</button>
+    </div>
+    <div class="controls-2">
+      <h2>Start/Pause!!</h2>
+      <button id="start">Start</button>
+      <button id="pause">Pause</button>
+    </div>
+    <div class="history">
+      <h2>Save Your History!!</h2>
+      <button id="history">Save</button>
+      <div>
+      <ul id="items"></ul>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
